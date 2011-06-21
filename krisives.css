@@ -1,0 +1,82 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #353535;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+body {
+	color: #111;
+	width: 600px;
+	background-color: #dedede;
+	margin-left: 300px;
+	min-height: 600px;
+	border: 1px inset #fff;
+	padding-left: 1em;
+	padding-right: 0.5em;
+	-webkit-border-bottom-right-radius: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	-moz-border-radius-bottomright: 25px;
+	-moz-border-radius-bottomleft: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	margin-bottom: 200px;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 3px;
+}
+
+h1 {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #eee;
+	margin-left: -35px;
+	margin-right: -25px;
+	border-radius: 5px;
+	padding-left: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.3333);
+}
+
+h2 {
+	
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+
+#contact {
+	position: fixed;
+	top: 40px;
+	left: 40px;
+	text-align: center;
+	line-height: 150%;
+
+}
+
+#contact > * {
+	display: block;
+	color: #aaa;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+}
+
+#about {
+	text-align: center;
+	font-size: 125%;
+	font-family: Times New Roman;
+	letter-spacing: 0.08em;
+	font-style: italic;
+}
+
+.small {
+	font-size: 80%;
+	line-height: normal;
+}
+
