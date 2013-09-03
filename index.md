@@ -3,44 +3,35 @@ layout: page
 title: Hello World!
 tagline: Supporting tagline
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## Who are you?
+My name is Kris, you might know me as:
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+* Kristopher, a guy that lives in Oregon
 
-## Update Author Attributes
+* Software developer at Gearbox Studios
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+* Bitcoin consultant / contractor
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+* Amateur paintball player
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+* I play games and help run tournaments (Counter-Strike and Starcraft)
 
-    $ rm -rf _posts/core-samples
+## What do you do?
 
-Here's a sample "posts list".
+I write code. A lot of it. Not all of it ends up making the cut, but I've
+been programming for... *let me see here* Damn, about 16 years now. For a list
+of projects I've made and a better idea of what I'm doing right now, go check
+out my [GitHub repos](https://github.com/krisives).
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+## How can I get in contact with you?
 
-## To-Do
+The fastest and easiest way to reach me would be:
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+* Send an e-mail to [kristopher.ives@gmail.com](mailto:kristopher.ives@gmail.com)
 
+* Tweet [@KristopherIves](https://twitter.com/KristopherIves)
+
+I'm still getting a decent handle on setting up my BitMessage addresses,
+and I will post those here soon.
 
