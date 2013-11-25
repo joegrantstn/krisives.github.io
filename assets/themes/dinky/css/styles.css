@@ -206,7 +206,7 @@ td {
 header {
 	background-color: #171717;
 	color: #FDFDFB;
-  width:170px;
+  width:200px;
   float:left;
   position:fixed;
 	border: 1px solid #000;
@@ -254,7 +254,7 @@ header ul {
 
 header li {
 	list-style-type: none;
-  width:132px;
+
   height:15px;
 	margin-bottom: 12px;
 	line-height: 1em;
@@ -321,14 +321,34 @@ footer {
   float:left;
   position:fixed;
   bottom:10px;
-	padding-left: 50px;
+  padding-left: 50px;
+  display: none;
 }
 
+section ul {
+	margin-left: 50px;
+}
 
-ul li p {
+section ul li {
+	margin: 5px;
+	margin-bottom: 10px;
+	padding: 0;
+	list-style: disc outside;
+}
+
+section ul li p {
 	display: inline;
+	padding: 0;
+	margin: 0;
+	
 }
 
+
+
+section sup {
+	font-size: 75%;
+	vertical-align: super;
+}
 
 @media print, screen and (max-width: 960px) {
   
