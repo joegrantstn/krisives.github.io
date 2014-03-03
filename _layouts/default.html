@@ -1,6 +1,46 @@
----
-theme:
-  name: dinky
----
-{% include JB/setup %}
-{% include themes/dinky/default.html %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title_tag_text }}</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/solo.css">
+{% include head.html %}
+	<style>
+	#recent h1,
+	#recent h2,
+	#recent h3 {
+		display: none;
+	}
+	
+	#recent small {
+		color: #666;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h1>
+		<a href="/" title="{{site.title_tag_text}}">
+			{{ site.h1_tag_text }}
+		</a>
+	</h1>
+	
+	{{ content }}
+	
+
+	
+	<h2>Recent</h2>
+	<div id="recent">
+		{% assign posts_collate = site.posts %}
+		{% include JB/posts_collate %}
+	</div>
+	
+	</div>
+{% include scripts.html %}
+</body>
+</html>
