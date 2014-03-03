@@ -1,8 +1,3 @@
----
-layout: page
-title: Oh, Howdy World!
-tagline: Supporting tagline
----
 
 ### Who are you?
 My name is Kris, you might know me as:
