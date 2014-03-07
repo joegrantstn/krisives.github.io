@@ -57,5 +57,14 @@
 	
 	</div>
 {% include scripts.html %}
+
+<script>
+$(function () {
+    $.getJSON("https://github.com/krisives.json", function (data) {
+         console.log("GitHub", data);
+    }
+});
+</script>
+
 </body>
 </html>
