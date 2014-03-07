@@ -60,8 +60,12 @@
 
 <script>
 $(function () {
-    $.getJSON("//github.com/krisives.json", function (data) {
-         console.log("GitHub", data);
+    $.ajax({
+    	url: "//github.com/krisives.json",
+    	dataType: "jsonp",
+    	complete: function (data) {
+            console.log("GitHub", data);
+    	}
     });
 });
 </script>
