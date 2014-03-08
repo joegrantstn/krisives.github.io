@@ -55,13 +55,15 @@
 		{% include JB/posts_collate %}
 	</div>
 	
-	<div id="timeline"></div>
+	<ul id="timeline"></ul>
 	
 	</div>
 {% include scripts.html %}
 
 <script>
 $(function () {
+    var timeline = $('#timeline');
+    
     $.ajax({
     	url: "//github.com/krisives.json",
     	dataType: "jsonp",
@@ -70,9 +72,17 @@ $(function () {
     	}
     });
     
+    function add(body, when, link) {
+    	var item = $('<li></li>');
+    	item.append(body);
+    	
+    	timeline.append(item);
+    	return item;
+    }
+    
     var redditHandlers = {
     	t1: function (e) {
-    		console.log(e.data);
+    		add(e.body_html, e.created_utc);
     	}
     };
     
