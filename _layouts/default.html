@@ -76,7 +76,7 @@ $(function () {
     
     function add(body, when, link) {
     	var item = $('<li></li>');
-    	item.append($(body));
+    	item.html(body);
     	
     	timeline.append(item);
     	return item;
