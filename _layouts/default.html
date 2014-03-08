@@ -55,6 +55,8 @@
 		{% include JB/posts_collate %}
 	</div>
 	
+	<div id="timeline"></div>
+	
 	</div>
 {% include scripts.html %}
 
@@ -68,13 +70,25 @@ $(function () {
     	}
     });
     
+    var redditHandlers = {
+    	t1: function (e) {
+    		console.log(e.data);
+    	}
+    };
+    
     $.ajax({
     	url: "//reddit.com/user/kayrice/overview.json",
     	dataType: 'jsonp',
     	jsonp: 'jsonp',
     	crossDomain: true, 
     	complete: function (data) {
-    		console.log("Reddit", data);
+    		$.each(data.responseJSON.data.children, function (index, event) {
+    			var f = redditHandlers[event.kind];
+    			
+    			if (f) {
+    				f(event);
+    			}
+    		});
     	}
     });
 });
