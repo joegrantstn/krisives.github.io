@@ -96,9 +96,9 @@ $(function () {
     	complete: function (data) {
     		$.each(data.responseJSON.data.children, function (index, event) {
     			var f = redditHandlers[event.kind];
-    			console.log(event);
+    			
     			if (f) {
-    				f(event);
+    				f(event.data);
     			}
     		});
     	}
