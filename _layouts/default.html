@@ -67,6 +67,16 @@ $(function () {
             console.log("GitHub", data);
     	}
     });
+    
+    $.ajax({
+    	url: "//reddit.com/user/kayrice/overview.json",
+    	dataType: 'jsonp',
+    	jsonp: 'jsonp',
+    	crossDomain: true, 
+    	omplete: function (data) {
+    		console.log("Reddit", data);
+    	}
+    });
 });
 </script>
 
