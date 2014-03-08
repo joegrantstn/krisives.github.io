@@ -35,6 +35,11 @@
 	#recent ul li:hover {
 		opacity: 1.0;
 	}
+	
+	#timeline {
+		font-size: 80%;
+	}
+	}
 	</style>
 </head>
 <body>
@@ -84,6 +89,7 @@ $(function () {
     
     var redditHandlers = {
     	t1: function (e) {
+    		console.log(e);
     		add(e.body, e.created_utc);
     	}
     };
