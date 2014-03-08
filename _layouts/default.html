@@ -76,7 +76,7 @@ $(function () {
     
     function add(body, when, link) {
     	var item = $('<li></li>');
-    	item.html(body);
+    	item.text(body);
     	
     	timeline.append(item);
     	return item;
@@ -84,7 +84,7 @@ $(function () {
     
     var redditHandlers = {
     	t1: function (e) {
-    		add(e.body_html, e.created_utc);
+    		add(e.body, e.created_utc);
     	}
     };
     
