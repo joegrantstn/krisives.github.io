@@ -22,6 +22,11 @@ Being straight-up about it:
     - Anders
 
 Right as saving this article Steam began to come online and it appears it was a horribly
-timed update to the platform. My guess is that CS:GO works with Katowice and other tournament
-providers, but there is a gap between someone and the core Steam team. You can probably assume
+timed update to the platform. ~~My guess is that CS:GO works with Katowice and other tournament
+providers, but there is a gap between someone and the core Steam team.~~ You can probably assume
 it was not some DDoS.
+
+**Update:** What appears to have happened is both Steam and CS:GO had upates, and the version of
+CS:GO that was updated is actually an old build from 2012... Someone must have noticed things
+were busted because they released the previous version. This means that some players have the
+2012 version out currently, while some "updated" directly to their current version being restored.
