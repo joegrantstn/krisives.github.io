@@ -18,8 +18,7 @@ amazing news to fans:
 
 Being straight-up about it:
 
-    "I am playing Sandstorm while Steam is down in an attempt to distract everyone from realizing
-    the stream has been playing music for over an hour"
+    "I am playing Sandstorm while Steam is down in an attempt to distract everyone from realizing the stream has been playing music for over an hour"
     - Anders
 
 Right as saving this article Steam began to come online and it appears it was a horribly
