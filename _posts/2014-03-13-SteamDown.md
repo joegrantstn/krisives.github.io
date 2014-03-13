@@ -1,5 +1,5 @@
 ---
-title: Steam goes down during $250,000 Counter-Strike: Global Offensive Tournament
+title: Steam goes down during $250,000 Counter-Strike Global Offensive Tournament
 tags: csgo
 layout: post
 ---
