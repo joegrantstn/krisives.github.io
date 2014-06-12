@@ -30,3 +30,5 @@ it was not some DDoS.
 CS:GO that was updated is actually an old build from 2012... Someone must have noticed things
 were busted because they released the previous version. This means that some players have the
 2012 version out currently, while some "updated" directly to their current version being restored.
+
+...
